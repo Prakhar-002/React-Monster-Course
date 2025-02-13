@@ -1,5 +1,5 @@
 
-<h3  align="center" >𝐌υᥣ𝗍𝗂ρᥣ𝖾 𝐂ⱺꭑρⱺ𐓣𝖾𐓣𝗍𝗌</h3>
+<h1  align="center" >𝐌υᥣ𝗍𝗂ρᥣ𝖾 𝐂ⱺꭑρⱺ𐓣𝖾𐓣𝗍𝗌</h1>
 
 ``` JSX
 
@@ -47,7 +47,7 @@ export default Greetings;
 
 </br>
 
-<h3  align="center" >Exercise: Rendering Multiple Components and Nesting Components</h3>
+<h1  align="center" >Exercise: Rendering Multiple Components and Nesting Components</h1>
 
 In this exercise, you will learn how to create multiple components and render one component inside another.
 
@@ -106,7 +106,7 @@ export default App;
 
 </br>
 
-<h3  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h3>
+<h1  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h1>
 
 ```JSX
 
