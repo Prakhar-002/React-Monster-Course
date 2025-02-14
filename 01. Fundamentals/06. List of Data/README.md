@@ -1,5 +1,6 @@
 
-<h3  align="center" >𝐋𝗂𝗌𝗍 ⱺ𝖿 𝐃α𝗍α</h3>
+<h1  align="center" > 🍄 𝐋𝗂𝗌𝗍 ⱺ𝖿 𝐃α𝗍α 🥠</h1>
+
 
 ``` JSX
 
@@ -121,7 +122,7 @@ li:hover {
 
 </br>
 
-<h3  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h3>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 ### Exercise: Rendering a List of Data with `.map()`
 
@@ -186,7 +187,7 @@ In this exercise, you will learn how to render a list of items using the `.map()
 
 </br>
 
-<h3  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h3>
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
 
 ```JSX
 

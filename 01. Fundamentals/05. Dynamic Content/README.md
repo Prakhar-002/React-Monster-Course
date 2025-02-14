@@ -1,5 +1,6 @@
 
-<h1  align="center" >𝐄ꭑᑲ𝖾ᑯᑯ𝗂𐓣𝗀 𝐃𝗒𐓣αꭑ𝗂𝖼 𝐂ⱺ𐓣𝗍𝖾𐓣𝗍</h1>
+<h1  align="center" > 🍄 𝐄ꭑᑲ𝖾ᑯᑯ𝗂𐓣𝗀 𝐃𝗒𐓣αꭑ𝗂𝖼 𝐂ⱺ𐓣𝗍𝖾𐓣𝗍 🥠</h1>
+
 
 ``` JSX
 
@@ -32,7 +33,7 @@ export default App;
 
 </br>
 
-<h1  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h1>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 ### Exercise: Using Dynamic Content with `{}` in JSX
 
@@ -90,7 +91,7 @@ In this exercise, you'll learn how to inject dynamic data into JSX using curly b
 
 </br>
 
-<h1  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h1>
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
 
 ```JSX
 

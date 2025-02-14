@@ -1,5 +1,5 @@
 
-<h3  align="center" >𝐄𝗏𝖾𐓣𝗍𝗌</h3>
+<h1  align="center" > 🍄 𝐄𝗏𝖾𐓣𝗍𝗌 🥠</h1>
 
 ``` JSX
 
@@ -55,7 +55,7 @@ export default App;
 
 </br>
 
-<h3  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h3>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 # ⚠️ DO THIS EXERCISE WHEN YOU LEARN "useState" hook ⚠️
 

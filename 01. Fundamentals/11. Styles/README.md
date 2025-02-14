@@ -1,7 +1,7 @@
 
-<h3  align="center" >𝐒𝗍𝗒ᥣ𝖾𝗌</h3>
+<h1  align="center" > 🍄 𝐒𝗍𝗒ᥣ𝖾𝗌 🥠</h1>
 
-<h4  align="center" >𝚰𐓣ᥣ𝗂𐓣𝖾 𝐒𝗍𝗒ᥣ𝖾𝗌</h4>
+<h2  align="center" >𝚰𐓣ᥣ𝗂𐓣𝖾 𝐒𝗍𝗒ᥣ𝖾𝗌</h2>
 
 ```JSX
 
@@ -35,7 +35,7 @@ export default App;
 
 ```
 
-<h4  align="center" >𝐒𝖾ρα𝗋α𝗍𝖾 𝐒𝗍𝗒ᥣ𝖾𝗌</h4>
+<h2  align="center" >𝐒𝖾ρα𝗋α𝗍𝖾 𝐒𝗍𝗒ᥣ𝖾𝗌</h2>
 
 ```JSX
 
@@ -77,7 +77,7 @@ h1 {
 
 ```
 
-<h4  align="center" >𝚰𝖼ⱺ𐓣𝗌</h4>
+<h2  align="center" >𝚰𝖼ⱺ𐓣𝗌</h2>
 
 ```JSX
 
@@ -102,7 +102,7 @@ export default App;
 
 </br>
 
-<h3  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h3>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 ### Exercise: Styling Components in React
 
@@ -183,7 +183,7 @@ In this exercise, you'll learn how to apply styles using different methods in Re
 
 </br>
 
-<h3  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h3>
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
 
 ```JSX
 

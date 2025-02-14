@@ -1,7 +1,9 @@
 
-<h3  align="center" >𝐏ⱺ𝗋𝗍αᥣ</h3>
+<h1  align="center" > 🍄 𝐏ⱺ𝗋𝗍αᥣ 🥠</h1>
 
 ``` JSX
+
+//============ App.jsx ============== 
 
 import CopyInput from "./components/CopyInput";
 
@@ -37,6 +39,8 @@ export default App;
 
 ```JSX
 
+//============ CopyInput.jsx ============== 
+
 import { useState } from "react";
 import PopupContent from "./PopupContent";
 
@@ -70,6 +74,8 @@ export default CopyInput;
 ```
 
 ```JSX
+
+//============ PopupContent.jsx ============== 
 
 import { createPortal } from "react-dom";
 

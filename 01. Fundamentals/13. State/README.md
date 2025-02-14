@@ -1,6 +1,6 @@
-<h3  align="center" ></h3>
+<h1  align="center" > 🍄 𝐒𝗍α𝗍𝖾 🥠</h1>
 
-<h4  align="center" >𝐁α𝗌𝗂𝖼 𝐂ⱺυ𐓣𝗍𝖾𝗋</h4>
+<h2  align="center" >𝐁α𝗌𝗂𝖼 𝐂ⱺυ𐓣𝗍𝖾𝗋</h2>
 
 ``` JSX
 
@@ -29,7 +29,7 @@ export default App;
 
 ```
 
-<h4  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐀𝗋𝗋α𝗒𝗌</h4>
+<h2  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐀𝗋𝗋α𝗒𝗌</h2>
 
 ``` JSX
 
@@ -59,7 +59,7 @@ export default App;
 
 ```
 
-<h4  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐎ᑲ𝗃𝖾𝖼𝗍</h4>
+<h2  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐎ᑲ𝗃𝖾𝖼𝗍</h2>
 
 ``` JSX
 
@@ -99,7 +99,7 @@ export default App;
 
 ```
 
-<h4  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐀𝗋𝗋α𝗒 𝐎𝖿 𝐎ᑲ𝗃𝖾𝖼𝗍𝗌</h4>
+<h2  align="center" >𝐔ρᑯα𝗍𝗂𐓣𝗀 𝐀𝗋𝗋α𝗒 𝐎𝖿 𝐎ᑲ𝗃𝖾𝖼𝗍𝗌</h2>
 
 ``` JSX
 
@@ -131,7 +131,7 @@ export default App;
 
 ```
 
-<h4  align="center" >𝐒ɦα𝗋𝗂𐓣𝗀 𝐒𝗍α𝗍𝖾</h4>
+<h2  align="center" >𝐒ɦα𝗋𝗂𐓣𝗀 𝐒𝗍α𝗍𝖾</h2>
 
 ``` JSX
 
@@ -188,13 +188,15 @@ export default ComponentTwo;
 
 ```
 
-<h4  align="center" >𝐏α𝗌𝗌𝗂𐓣𝗀 𝐅υ𐓣𝖼𝗍𝗂ⱺ𐓣 α𝗌 α 𝗏αᥣυ𝖾</h4>
+<h2  align="center" >𝐏α𝗌𝗌𝗂𐓣𝗀 𝐅υ𐓣𝖼𝗍𝗂ⱺ𐓣 α𝗌 α 𝗏αᥣυ𝖾</h2>
 
 ``` JSX
 
+//============ App.jsx ============== 
+
 import ExampleOne from "./components/ExampleOne";
-import ExampleThree from "./components/ExampleThree";
 import ExampleTwo from "./components/ExampleTwo";
+import ExampleThree from "./components/ExampleThree";
 
 const App = () => {
   return (
@@ -210,6 +212,8 @@ export default App;
 ```
 
 ```JSX
+
+//============ ExampleOne.jsx ============== 
 
 import { useState } from "react";
 
@@ -239,6 +243,8 @@ export default ExampleOne;
 
 ```JSX
 
+//============ ExampleTwo.jsx ============== 
+
 import { useState } from "react";
 
 const ExampleTwo = () => {
@@ -265,6 +271,8 @@ export default ExampleTwo;
 ```
 
 ```JSX
+
+//============ ExampleThree.jsx ============== 
 
 import { useState, useEffect } from "react";
 
@@ -308,7 +316,7 @@ export default ExampleThree;
 
 </br>
 
-<h3  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h3>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 ### Exercise: Mastering `useState` in React
 
@@ -381,9 +389,11 @@ In this exercise, you’ll learn how to use the `useState` hook for managing sta
 
 </br>
 
-<h3  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h3>
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
 
 ```JSX
+
+//============ App.jsx ============== 
 
 import Counter from "./components/Counter";
 import Profile from "./components/Profile";
@@ -407,6 +417,8 @@ export default App;
 
 ```JSX
 
+//============ Counter.jsx ============== 
+
 import { useState } from "react";
 
 const Counter = () => {
@@ -426,6 +438,8 @@ export default Counter;
 ```
 
 ```JSX
+
+//============ ShoppingList.jsx ============== 
 
 import { useState } from "react";
 
@@ -491,6 +505,8 @@ export default ShoppingList;
 
 ```JSX
 
+//============ Profile.jsx ============== 
+
 import { useState } from "react";
 
 const Profile = () => {
@@ -546,6 +562,8 @@ export default Profile;
 ```
 
 ```JSX
+
+//============ TodoList.jsx ============== 
 
 import React, { useState } from "react";
 

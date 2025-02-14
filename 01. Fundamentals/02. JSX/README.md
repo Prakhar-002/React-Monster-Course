@@ -1,5 +1,5 @@
 
-<h1  align="center" >𝐉𝐒𝐗</h1>
+<h1  align="center" > 🍄 𝐉𝐒𝐗 🥠</h1>
 
 ```JSX
 
@@ -51,7 +51,7 @@ export default App;
 
 </br>
 
-<h1  align="center" >𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌</h1>
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
 In this exercise, you will practice writing basic JSX code and rendering it in a React app.
 
@@ -76,7 +76,7 @@ In this exercise, you will practice writing basic JSX code and rendering it in a
 
 </br>
 
-<h1  align="center" >𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣</h1>
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
 
 ```JSX
 
