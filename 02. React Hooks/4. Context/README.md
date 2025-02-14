@@ -1,3 +1,15 @@
+
+<h1  align="center" > 🍄 𝐂ⱺ𐓣𝗍𝖾𝗑𝗍 🥠</h1>
+
+```JSX
+
+
+```
+
+</br>
+
+<h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
+
 ### Exercise: Using Context and `useContext` in React
 
 In this exercise, you will learn how to:
@@ -20,3 +32,11 @@ In this exercise, you will learn how to:
 
 1. Create a new file called `UpdateUser.jsx`.
 2. Inside this file, create a functional component called `UpdateUser` that allows the user to update their name.
+
+</br>
+
+<h1  align="center" >🌽 𝐒ⱺᥣυ𝗍𝗂ⱺ𐓣 🪻</h1>
+
+```JSX
+
+```
