@@ -8,7 +8,7 @@
 import ComponentA from "./ComponentA";
 
 const App = () => {
-  const name = "HuXn";
+  const name = "Prakhar";
   return <ComponentA name={name} />;
 };
 
