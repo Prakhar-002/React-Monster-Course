@@ -1,6 +1,8 @@
 
 <h1  align="center" > 🍄 𝐂υ𝗌𝗍ⱺꭑ 𝐇ⱺⱺ𝗄𝗌 🥠</h1>
 
+Custom Hooks are JavaScript functions that start with the prefix use (e.g., useFetch, useForm) and can call other hooks within them. They allow you to extract and reuse logic that involves state or side effects, making your components more readable and maintainable.
+
 ```JSX
 
 //============ App.jsx ============== 
