@@ -1,6 +1,8 @@
 
 <h1  align="center" > 🍄 υ𝗌𝖾𝚰ᑯ 🥠</h1>
 
+The useId hook in React is used to generate unique IDs for components.
+
 ```JSX
 
 //============ App.jsx ============== 
