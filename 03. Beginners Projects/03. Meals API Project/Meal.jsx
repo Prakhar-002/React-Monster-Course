@@ -2,22 +2,22 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import "./style.css";
 
-function Main() {
-  const [items, setitems] = useState([]);
+function Meal() {
+  const [items, setItems] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood")
       .then((res) => {
         // console.log(res.data);
-        setitems(res.data.meals);
+        setItems(res.data.meals);
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
 
-  const itemslist = items.map(({ strMeal, strMealThumb, idMeal }) => {
+  const itemsList = items.map(({ strMeal, strMealThumb, idMeal }) => {
     return (
       <section className="card">
         <img src={strMealThumb} />
@@ -29,7 +29,7 @@ function Main() {
     );
   });
 
-  return <div className="items-container">{itemslist}</div>;
+  return <div className="items-container">{itemsList}</div>;
 }
 
-export default Main;
+export default Meal;
