@@ -1,8 +1,8 @@
-import Main from "./Main";
-import "./index.css";
+import Form from "./Form";
+import "./style.css";
 
 const App = () => {
-  return <Main />;
+  return <Form />;
 };
 
 export default App;

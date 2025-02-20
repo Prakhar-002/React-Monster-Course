@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Main() {
+function Form() {
   const [username, setusername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -104,4 +104,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Form;
