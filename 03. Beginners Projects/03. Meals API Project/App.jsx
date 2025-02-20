@@ -1,7 +1,7 @@
-import Main from "./Main";
+import Meal from "./Meal";
 
 const App = () => {
-  return <Main />;
+  return <Meal />;
 };
 
 export default App;

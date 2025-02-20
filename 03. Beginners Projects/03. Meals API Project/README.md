@@ -1,5 +1,5 @@
 
-<h1  align="center" > 🍄 𝐂ⱺυ𐓣𝗍𝖾𝗋 🥠</h1>
+<h1  align="center" > 🍄 𝐌𝖾αᥣ𝗌 𝐀𝐏𝚰 𝐏𝗋ⱺ𝗃𝖾𝖼𝗍 🥠</h1>
 
 ![image](https://github.com/user-attachments/assets/fd2542b0-e8ee-4af3-a34a-e68d867ec0e1)
 
@@ -7,10 +7,10 @@
 
 //============ App.jsx ============== 
 
-import Main from "./Main";
+import Meal from "./Meal";
 
 const App = () => {
-  return <Main />;
+  return <Meal />;
 };
 
 export default App;
