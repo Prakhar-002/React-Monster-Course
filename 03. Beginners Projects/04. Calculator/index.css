@@ -36,6 +36,7 @@ body {
   place-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #fff;
+  cursor: pointer;
 }
 
 .calculator span:active {

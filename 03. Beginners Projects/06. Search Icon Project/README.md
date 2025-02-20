@@ -3,9 +3,7 @@
 
 <h1  align="center" > 
 
-![image](https://github.com/user-attachments/assets/60c16dea-a169-456f-b8bc-b12187255be5)
-
-![after](https://github.com/user-attachments/assets/cbd53fec-d737-41b5-9519-d30afbd07a9e)
+<img  src="https://github.com/user-attachments/assets/57207291-332e-4daf-b2dc-09885ce3d782" width="500px" height="342px"/>
 
 </h1>
 

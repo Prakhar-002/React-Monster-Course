@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-![image](https://github.com/user-attachments/assets/faf3d0ee-03f5-4221-b3b4-0c7a7640ef92)
+<img  src="https://github.com/user-attachments/assets/151af254-77e2-4829-8782-d60140a59796" width="500px" height="486px"/>
 
 </h1>
 
