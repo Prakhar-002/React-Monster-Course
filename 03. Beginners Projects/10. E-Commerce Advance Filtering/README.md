@@ -9,6 +9,15 @@
 
 </br>
 
+<h1  align="center" >  
+
+█▀▀ █▀▀ ▄▀█ ▀█▀ █░█ █▀█ █▀▀ █▀ </br>
+█▀░ ██▄ █▀█ ░█░ █▄█ █▀▄ ██▄ ▄█
+
+</h1>
+
+</br>
+
 - `Category Filtering` 🌸 Users can select different categories like `Flats`, `Sneakers`, `Sandals`, and `Heels`.
 
 - `Price Filtering` 🌸 Shoes can be filtered by price range, such as `$0-$50`, `$50-$100`, etc.
