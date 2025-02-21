@@ -9,8 +9,6 @@
 
 </br>
 
-<p  align="center" > 
-
 - `Category Filtering` 🌸 Users can select different categories like `Flats`, `Sneakers`, `Sandals`, and `Heels`.
 
 - `Price Filtering` 🌸 Shoes can be filtered by price range, such as `$0-$50`, `$50-$100`, etc.
@@ -24,5 +22,3 @@
 - `Dynamic Product Display` 🌸 The displayed shoes update dynamically as users apply filters.
 
 - `Responsive UI` 🌸 The layout remains structured and clean while filtering.
-
-</p>
