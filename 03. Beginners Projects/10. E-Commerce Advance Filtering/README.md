@@ -7,8 +7,6 @@
 
 </h1>
 
-</br>
-
 <h1  align="center" >📦 𝖿𝖾α𝗍υ𝗋𝖾𝗌 🧊</h1>
 
 - `Category Filtering` 🌸 Users can select different categories like `Flats`, `Sneakers`, `Sandals`, and `Heels`.
