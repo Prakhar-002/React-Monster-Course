@@ -1,7 +1,7 @@
 
 <h1  align="center" > 🍄 𝐂ⱺ𐓣𝗍𝖾𝗑𝗍 𝐀𝐏𝚰 🥠</h1>
 
-<h2  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 1️⃣ 🧋</h2>
+<h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 1️⃣ 🧋</h1>
 
 ```TSX
 
@@ -93,7 +93,7 @@ export default MyContext;
 
 ```
 
-<h2  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ 🧋</h2>
+<h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ 🧋</h1>
 
 ```TSX
 
