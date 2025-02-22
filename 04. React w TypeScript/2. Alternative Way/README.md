@@ -3,7 +3,7 @@
 
 ```TSX
 
-//============ App.jsx ============== 
+//============ App.tsx ============== 
 
 import User from "@/components/User";
 
@@ -19,7 +19,7 @@ export default function Home() {
 
 ```TSX
 
-//============ components/User.jsx ============== 
+//============ components/User.tsx ============== 
 
 import { FC } from "react";
 

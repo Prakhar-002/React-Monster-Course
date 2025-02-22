@@ -3,7 +3,7 @@
 
 ```TSX
 
-//============ App.jsx ============== 
+//============ App.tsx ============== 
 
 import User from "@/live coding/components/User";
 
@@ -22,7 +22,7 @@ export default function Home() {
 
 ```TSX
 
-//============ components/User.jsx ============== 
+//============ components/User.tsx ============== 
 
 // -------------------------------------
 // 1. Passing Types
@@ -148,7 +148,7 @@ In this exercise, you'll practice typing props for a React component using TypeS
 
 ```TSX
 
-//============ App.jsx ============== 
+//============ App.tsx ============== 
 
 import Button from "./components/Button";
 
@@ -170,7 +170,7 @@ export default App;
 
 ```TSX
 
-//============ components/Button.jsx ============== 
+//============ components/Button.tsx ============== 
 
 // const Button = (props: {
 //   label: string;
