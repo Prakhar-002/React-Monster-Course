@@ -1,4 +1,4 @@
-<h1  align="center" > 🍄 𝐂ⱺυ𐓣𝗍𝖾𝗋 🥠</h1>
+<h1  align="center" > 🍄 𝐁𝐋𝐎𝐆𝐒 🥠</h1>
 
 <h1  align="center" > 
 
