@@ -1,6 +1,10 @@
 
 <h1  align="center" > 🍄 𝐀𝖼𝗍𝗂ⱺ𐓣𝗌 🥠</h1>
 
+React 19 introduces Actions, which are asynchronous
+functions designed to simplify form submissions. Actions
+can be utilized on both the client and server sides.
+
 ```JSX
 
 //============ App.jsx ============== 

@@ -1,6 +1,11 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐅ⱺ𝗋ꭑ 𝐒𝗍α𝗍υ𝗌 🥠</h1>
 
+useFormStatus is a Hook that gives you status
+information of the last form submission.
+
+![alt text](image.png)
+
 ```JSX
 
 //============ App.jsx ============== 
@@ -47,6 +52,7 @@ function Form() {
           required
         />
       </div>
+
       <div>
         <label htmlFor="email">Email:</label>
         <input
@@ -57,6 +63,7 @@ function Form() {
           required
         />
       </div>
+
       <FormButton />
     </form>
   );

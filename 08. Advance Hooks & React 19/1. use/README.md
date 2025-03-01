@@ -1,6 +1,15 @@
 
 <h1  align="center" > 🍄 𝐔𝐒𝐄 🥠</h1>
 
+The use() hook lets you read and load resources
+asynchronously, such as promises or context. Unlike other
+hooks, it can be utilized in loops and conditionals.
+
+In certain situations, it can serve as a replacement for
+useEffect() when fetching data, and it streamlines context
+usage by allowing you to use use(context) instead of
+useContext(contex).
+
 <h2  align="center" > 🍄 1. 𝐖𝗂𝗍ɦⱺυ𝗍 𝐔𝗌𝖾 🥠</h2>
 
 ```JSX
