@@ -3,9 +3,9 @@
 
 <h2  align="center" > 🍄 1. 𝐖𝗂𝗍ɦⱺυ𝗍 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import { Suspense } from "react";
 import FetchTodo from "./components/FetchTodo";
@@ -22,9 +22,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/FetchTodo.tsx ============== 
+//============ components/FetchTodo.jsx ============== 
 
 import { useState, useEffect } from "react";
 
@@ -64,9 +64,9 @@ export default FetchTodo;
 
 <h2  align="center" > 🍄 2. 𝐖𝗂𝗍ɦ 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import { Suspense } from "react";
 import FetchTodo from "./components/FetchTodo";
@@ -83,9 +83,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/AdminInfo.tsx ============== 
+//============ components/AdminInfo.jsx ============== 
 
 import { use } from "react";
 // npm i react@experimental react-dom@experimental

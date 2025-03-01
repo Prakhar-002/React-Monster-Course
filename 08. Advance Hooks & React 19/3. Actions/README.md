@@ -1,9 +1,9 @@
 
 <h1  align="center" > 🍄 𝐀𝖼𝗍𝗂ⱺ𐓣𝗌 🥠</h1>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import Form from "./component/Form";
 
@@ -19,9 +19,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ Components/Form.tsx ============== 
+//============ Components/Form.jsx ============== 
 
 const Form = () => {
   const formAction = (formData) => {

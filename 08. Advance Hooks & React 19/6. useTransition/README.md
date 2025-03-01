@@ -3,9 +3,9 @@
 
 <h2  align="center" > 🍄 1. 𝐖𝗂𝗍ɦⱺυ𝗍 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ WithoutTraction.tsx ============== 
+//============ WithoutTraction.jsx ============== 
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("home");
@@ -43,9 +43,9 @@ export default App;
 
 <h2  align="center" > 🍄 2. 𝐖𝗂𝗍ɦ 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import { useState, useTransition } from "react";
 import Home from "./components/Home";
@@ -107,27 +107,27 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Home.tsx ============== 
+//============ components/Home.jsx ============== 
 
 const Home = () => <p>This is the Home component.</p>;
 export default Home;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Content.tsx ============== 
+//============ components/Content.jsx ============== 
 
 const Contact = () => <p>This is the Contact component.</p>;
 export default Contact;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Posts.tsx ============== 
+//============ components/Posts.jsx ============== 
 
 const Posts = () => {
   // Generate a lot of posts

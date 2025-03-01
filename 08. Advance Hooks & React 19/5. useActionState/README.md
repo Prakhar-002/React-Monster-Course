@@ -1,9 +1,9 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐀𝖼𝗍𝗂ⱺ𐓣 𝐒𝗍α𝗍𝖾 🥠</h1>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import Count from "./components/Count";
 
@@ -19,9 +19,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Count.tsx ============== 
+//============ components/Count.jsx ============== 
 
 import { useActionState } from "react";
 

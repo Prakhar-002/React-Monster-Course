@@ -3,9 +3,9 @@
 
 <h2  align="center" > 🍄 1. 𝐖𝗂𝗍ɦⱺυ𝗍 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import Theme from "./components/Theme";
 
@@ -21,9 +21,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Theme.tsx ============== 
+//============ components/Theme.jsx ============== 
 
 import { createContext, useState } from "react";
 import Card from "./Card";
@@ -56,9 +56,9 @@ export default Theme;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Card.tsx ============== 
+//============ components/Card.jsx ============== 
 
 import { useContext } from "react";
 import { ThemeContext } from "./Theme";
@@ -105,9 +105,9 @@ export default Card;
 
 <h2  align="center" > 🍄 2. 𝐖𝗂𝗍ɦ 𝐔𝗌𝖾 🥠</h2>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import Theme from "./components/Theme";
 
@@ -123,9 +123,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Theme.tsx ============== 
+//============ components/Theme.jsx ============== 
 
 import { createContext, useState } from "react";
 import Card from "./Card";
@@ -158,9 +158,9 @@ export default Theme;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Card.tsx ============== 
+//============ components/Card.jsx ============== 
 
 import { use } from "react";
 import { ThemeContext } from "./Theme";

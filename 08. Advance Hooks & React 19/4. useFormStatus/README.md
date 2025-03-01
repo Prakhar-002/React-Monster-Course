@@ -1,9 +1,9 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐅ⱺ𝗋ꭑ 𝐒𝗍α𝗍υ𝗌 🥠</h1>
 
-```TSX
+```JSX
 
-//============ App.tsx ============== 
+//============ App.jsx ============== 
 
 import Form from "./components/Form";
 
@@ -19,9 +19,9 @@ export default App;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/Form.tsx ============== 
+//============ components/Form.jsx ============== 
 
 import FormButton from "./FormButton";
 
@@ -66,9 +66,9 @@ export default Form;
 
 ```
 
-```TSX
+```JSX
 
-//============ components/FormButton.tsx ============== 
+//============ components/FormButton.jsx ============== 
 
 import { useFormStatus } from "react-dom";
 
