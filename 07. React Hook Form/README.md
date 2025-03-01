@@ -137,6 +137,12 @@ body {
 
 <h1  align="center" >🌽 𝐏𝗋ⱺ𝗃𝖾𝖼𝗍 🪻</h1>
 
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/b57a9c0a-5ca7-466a-b175-9a0ce84adaa0" width="410px" height="600px"/>
+
+</h1>
+
 ```TSX
 
 //============ App.tsx ============== 
