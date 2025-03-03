@@ -3,6 +3,12 @@
 
 keyframes allow us to create more complex animations by specifying multiple points in an animation sequence. Instead of just animating from one state to another, we can define several intermediate states (frames) to control the animation more precisely.
 
+<h1  align="center" > 
+
+  <img src="https://github.com/user-attachments/assets/4282446e-2654-466f-9f1f-58533413bc40" width="400px" height="384px"/>
+
+</h1>
+
 ```TSX
 
 import { motion } from "framer-motion";
@@ -27,6 +33,12 @@ export default Keyframes;
 ```
 
 <h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" > 
+
+  <img src="https://github.com/user-attachments/assets/458891f1-0031-480a-a6ef-38db3d4c54fb" width="250px" height="162px"/>
+
+</h1>
 
 ```TSX
 
@@ -88,6 +100,12 @@ export default PulsingButton;
 </br>
 
 <h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h1>
+
+<h1  align="center" > 
+
+  <img src="https://github.com/user-attachments/assets/52d880c9-a51b-451a-b0c2-eec5bd0ad821" width="250px" height="149px"/>
+
+</h1>
 
 ```TSX
 

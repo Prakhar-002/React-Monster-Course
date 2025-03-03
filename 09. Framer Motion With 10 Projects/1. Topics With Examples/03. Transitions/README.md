@@ -32,3 +32,16 @@ const Transitions = () => {
 export default Transitions;
 
 ```
+
+
+```TSX
+
+  <motion.div className="box" transition={{ duration: 2, ease: "linear" }} />
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/f8068dbd-3b89-480d-bdb2-a183188f3353" width="400px" height="331px"/>
+
+</h1>

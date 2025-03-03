@@ -33,3 +33,39 @@ const Transformations = () => {
 export default Transformations;
 
 ```
+
+```TSX
+
+  <motion.div className="box" animate={{ rotate: 20 }} />
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/8f98f402-2d99-42a7-9212-3982cdb0562a" width="400px" height="355px"/>
+
+</h1>
+
+```TSX
+
+  <motion.div className="box" animate={{ scale: 2 }} />
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/20c9587a-ea4a-4fe0-93fa-6d8e1a952d4f" width="400px" height="365px"/>
+
+</h1>
+
+```TSX
+
+  <motion.div className="box" animate={{ skew: 20 }} />
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/ab8d7c86-5133-4d47-83ec-2a11cd617d1f" width="400px" height="367px"/>
+
+</h1>
