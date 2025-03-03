@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 ```
 
-👉 motion is an object that provides a set of components and hooks for creating animations and transitions in React applications.
+motion is an object that provides a set of components and hooks for creating animations and transitions in React applications.
 
 ## motion 🌠
 
