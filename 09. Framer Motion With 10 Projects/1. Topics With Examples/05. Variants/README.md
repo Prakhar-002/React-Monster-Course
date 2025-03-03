@@ -11,6 +11,12 @@ Create a set of named styles (like "hidden," "visible," etc.) that describe how 
 
 Apply these variants to our animated component, making it easy to switch between states without repeating code.
 
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/609be5fd-8770-4f64-b950-411c0dcf7d00" width="400px" height="332px"/>
+
+</h1>
+
 ```TSX
 
 import { useState } from "react";
