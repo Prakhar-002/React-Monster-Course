@@ -1,6 +1,8 @@
 
 <h1  align="center" > 🍄 𝐓𝗋α𐓣𝗌𝗂𝗍𝗂ⱺ𐓣𝗌  🥠</h1>
 
+Transitions are the effects that control how animations happen. Think of them as the "rules" for how an element moves or changes.
+
 ```TSX
 
 import { motion } from "framer-motion";

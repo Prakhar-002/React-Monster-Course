@@ -1,6 +1,8 @@
 
 <h1  align="center" > 🍄 𝐊𝖾𝗒𝖿𝗋αꭑ𝖾𝗌  🥠</h1>
 
+keyframes allow us to create more complex animations by specifying multiple points in an animation sequence. Instead of just animating from one state to another, we can define several intermediate states (frames) to control the animation more precisely.
+
 ```TSX
 
 import { motion } from "framer-motion";
