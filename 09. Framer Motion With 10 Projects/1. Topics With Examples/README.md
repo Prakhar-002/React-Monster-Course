@@ -7,6 +7,8 @@ import { motion } from "framer-motion"
 
 ```
 
+<h3>
+
 motion is an object that provides a set of components and hooks for creating animations and transitions in React applications.
 
 ## motion 🌠
@@ -24,3 +26,5 @@ motion is an object that provides a set of components and hooks for creating ani
 ## Exit Prop 📤
 
 🔴 Exit prop is used to define the animation that occurs when a component is removed from the React tree. This is particularly useful for creating smooth transitions when elements are unmounted/removed, enhancing the user experience by visually indicating that something has disappeared.
+
+</h3>
