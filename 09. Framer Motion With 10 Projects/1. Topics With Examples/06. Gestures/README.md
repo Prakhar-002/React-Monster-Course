@@ -115,7 +115,7 @@ export default Gestures;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/bc4bf7be-f9cd-401c-bf85-a0de392dfdd9" width="400px" height="392px"/>
 
 </h1>
 
@@ -184,7 +184,7 @@ export default AnimatedCard;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/6c0edcf7-3c08-4341-9bc3-bff979f555c1" />
 
 </h1>
 
