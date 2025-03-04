@@ -11,7 +11,7 @@ Create a set of named styles (like "hidden," "visible," etc.) that describe how 
 
 Apply these variants to our animated component, making it easy to switch between states without repeating code.
 
-<h1  align="center" > 
+<h1  align="center" >
 
 <img src="https://github.com/user-attachments/assets/609be5fd-8770-4f64-b950-411c0dcf7d00" width="400px" height="332px"/>
 
@@ -49,6 +49,12 @@ export default Variants;
 ```
 
 <h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/8011064c-0008-4158-8ccf-d87ee2f61ef9" width="400px" height="307px"/>
+
+</h1>
 
 ```TSX
 
@@ -102,6 +108,12 @@ export default AnimatedShape;
 </br>
 
 <h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/28239242-bdac-4a1f-bb79-7cb5f4540e62" width="400px" height="291px"/>
+
+</h1>
 
 ```TSX
 

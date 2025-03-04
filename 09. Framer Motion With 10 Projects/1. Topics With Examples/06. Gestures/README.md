@@ -1,6 +1,63 @@
 
 <h1  align="center" > 🍄 𝐆𝖾𝗌𝗍υ𝗋𝖾𝗌  🥠</h1>
 
+### Gestures allow us to add interactive animations based on user actions like `dragging`, `hovering`, or `tapping`. It makes our components respond to how users interact with them.
+
+<h2  align="center" > 🕍  𝐖ɦ𝗂ᥣ𝖾 𝐇ⱺ𝗏𝖾𝗋  🏄‍♀️</h2>
+
+```TSX
+
+<motion.div
+    whileHover={{ scale: 1.2, rotate: 10 }}
+    transition={{ type: "spring", stiffness: 300 }}
+    className="box"
+/> 
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/a66b6e45-19a7-44fc-8c04-7d90b800fc4b" width="400px" height="338px"/>
+
+</h1>
+
+<h2  align="center" > 🕍 𝐖ɦ𝗂ᥣ𝖾 𝐓αρ 🏄‍♀️</h2>
+
+```TSX
+
+<motion.div
+    whileTap={{ scale: 0.8, backgroundColor: "orange" }}
+    transition={{ type: "spring", stiffness: 300 }}
+    className="box"
+/>
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/18210361-b957-4147-8e1b-2e0f56bc886d" width="400px" height="336px"/>
+
+</h1>
+
+<h2  align="center" > 🕍 𝐖ɦ𝗂ᥣ𝖾 𝐃𝗋α𝗀  🏄‍♀️</h2>
+
+```TSX
+
+<motion.div
+    drag
+    whileDrag={{ scale: 1.1, backgroundColor: "orange" }}
+    transition={{ type: "spring", stiffness: 300 }}
+    className="box"
+/>
+
+```
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/bf28da70-b758-4915-85cd-be233e697c0f" width="400px" height="391px"/>
+
+</h1>
+
 ```TSX
 
 import { motion } from "framer-motion";
@@ -55,6 +112,12 @@ export default Gestures;
 ```
 
 <h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="" width="" height=""/>
+
+</h1>
 
 ```TSX
 
@@ -115,10 +178,15 @@ export default AnimatedCard;
 
 ```
 
-
 </br>
 
 <h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="" width="" height=""/>
+
+</h1>
 
 ```TSX
 
