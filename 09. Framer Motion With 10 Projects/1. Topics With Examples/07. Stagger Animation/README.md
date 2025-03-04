@@ -1,7 +1,15 @@
 
 <h1  align="center" > 🍄 𝐒𝗍α𝗀𝗀𝖾𝗋 𝐀𐓣𝗂ꭑα𝗍𝗂ⱺ𐓣  🥠</h1>
 
+### Stagger animation refers to a technique where multiple elements animate in a sequence rather than all at once. This reates a more dynamic and visually appealing effect, as each element appears or moves slightly after the previous one, adding a sense of rhythm and flow to the animation.
+
 <h2  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/fbc47018-a06e-4fd9-958c-d42f9706195c" width="208px" height="400px"/>
+
+</h1>
 
 ```TSX
 
@@ -103,6 +111,12 @@ body {
 </br>
 
 <h2  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/951fcf6a-60a7-4a4a-bf42-1d2c8984c257" width="166px" height="400px"/>
+
+</h1>
 
 ```TSX
 
