@@ -7,11 +7,7 @@ import { motion } from "framer-motion"
 
 ```
 
-<h3>
-
-motion is an object that provides a set of components and hooks for creating animations and transitions in React applications.
-
-</h3>
+### motion is an object that provides a set of components and hooks for creating animations and transitions in React applications.
 
 </br>
 
