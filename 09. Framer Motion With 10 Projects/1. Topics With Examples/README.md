@@ -33,17 +33,25 @@ import { motion } from "framer-motion"
 
 ### 🔴 Exit prop is used to define the animation that occurs when a component is removed from the React tree. This is particularly useful for creating smooth transitions when elements are unmounted/removed, enhancing the user experience by visually indicating that something has disappeared.
 
+</br>
+
 # Scroll Triggered Animations 📜
 
 ### 🟣 These animations are triggered when the user scrolls to a specific point in the viewport. Once the scroll reaches that point, the animation plays.
+
+</br>
 
 ## Use Cases 👉
 
 ### 🟢 Great for revealing elements, changing styles, or starting animations at specific sections of a page.
 
+</br>
+
 # Scroll Driven Animations 📜
 
 ### 🟠 These animations continuously change as the user scrolls, allowing for a smoother, more interactive experience. The animation properties can be mapped directly to the scroll position.
+
+</br>
 
 ## Use Cases 👉
 
