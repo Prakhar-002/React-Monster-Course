@@ -1,19 +1,3 @@
-# Scroll Triggered Animations 📜
-
-### These animations are triggered when the user scrolls to a specific point in the viewport. Once the scroll reaches that point, the animation plays.
-
-## Use Cases 👉
-
-### Great for revealing elements, changing styles, or starting animations at specific sections of a page.
-
-# Scroll Driven Animations 📜
-
-### These animations continuously change as the user scrolls, allowing for a smoother, more interactive experience. The animation properties can be mapped directly to the scroll position.
-
-## Use Cases 👉
-
-### Ideal for parallax effects, transforming elements, or adjusting opacity based on scroll depth.
-
 
 <h1  align="center" > 🍄 ωɦ𝗂ᥣ𝖾 𝚰𐓣 𝐕𝗂𝖾ω  🥠</h1>
 
