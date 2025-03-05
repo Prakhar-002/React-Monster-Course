@@ -1,6 +1,14 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐒𝖼𝗋ⱺᥣᥣ  🥠</h1>
 
+### useScroll hook helps track the scroll position of the page. It makes it easy to create animations or effects that respond to how much the user has scrolled.
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/9d08dce6-576e-4ca6-96f6-0bd6d0fa067b" width="400px" height="397px"/>
+
+</h1>
+
 ```TSX
 
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
@@ -49,6 +57,12 @@ export default Basic;
 ```
 
 <h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/691ca025-588b-4a57-a4d8-2ad61e466fb2" width="400px" height="401px"/>
+
+</h1>
 
 ```TSX
 
@@ -137,6 +151,12 @@ body {
 </br>
 
 <h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/22864384-a26a-425a-83e9-b6d3a0547e64" width="" height=""/>
+
+</h1>
 
 ```TSX
 

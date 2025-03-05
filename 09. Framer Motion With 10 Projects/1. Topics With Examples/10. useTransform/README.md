@@ -1,6 +1,10 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐓𝗋α𐓣𝗌𝖿ⱺ𝗋ꭑ  🥠</h1>
 
+### The useTransform hook is used to map one range of values to another. It's great for creating smooth animations and effects based on input values, like scroll position or mouse movements.
+
+<h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
 ```TSX
 
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -74,7 +78,14 @@ export default App;
 
 </br>
 
-<h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  2️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/003d46ad-b4ba-4695-9c46-76773c2aa021" width="400px" height="397px"/>
+
+</h1>
 
 ```TSX
 

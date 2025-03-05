@@ -1,7 +1,35 @@
+# Scroll Triggered Animations 📜
+
+### These animations are triggered when the user scrolls to a specific point in the viewport. Once the scroll reaches that point, the animation plays.
+
+## Use Cases 👉
+
+### Great for revealing elements, changing styles, or starting animations at specific sections of a page.
+
+# Scroll Driven Animations 📜
+
+### These animations continuously change as the user scrolls, allowing for a smoother, more interactive experience. The animation properties can be mapped directly to the scroll position.
+
+## Use Cases 👉
+
+### Ideal for parallax effects, transforming elements, or adjusting opacity based on scroll depth.
+
 
 <h1  align="center" > 🍄 ωɦ𝗂ᥣ𝖾 𝚰𐓣 𝐕𝗂𝖾ω  🥠</h1>
 
+### The whilelnView prop is used to trigger animations when an element comes into the viewport. It allows us to define how an element should animate while it is visible on the screen. It enables us to create engaging animations that activate when the user scrolls to a specific part of your webpage.
+
+<h1  align="center" > 🍄 𝐕𝗂𝖾ωρⱺ𝗋𝗍 𝐏𝗋ⱺρ  🥠</h1>
+
+### The viewport prop is used to customize how animations are triggered based on the visibility of an element in the viewport. It allows us to specify settings that affect when and how animations occur as elements scroll into or out of view.
+
 <h2  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/4ff401a9-7c61-470d-ad97-b63b6a0dc3fd" width="400px" height="242px"/>
+
+</h1>
 
 ```TSX
 
@@ -102,6 +130,12 @@ body {
 </br>
 
 <h2  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/bc8f96a2-1258-4747-b142-acb62ed623e1" width="400px" height="534px"/>
+
+</h1>
 
 ```TSX
 

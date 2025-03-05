@@ -1,6 +1,14 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐌ⱺ𝗍𝗂ⱺ𐓣 𝐕αᥣυ𝖾  🥠</h1>
 
+### useMotionValue hook enables fine control over animations, allowing us to trigger animations programmatically based on component state or events. It allows for the integration of more complex animation logic that goes beyond what's achievable with just props on a motion component.
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/e82abc3c-459f-4f19-8317-92c8199be135" width="400px" height="389px"/>
+
+</h1>
+
 ```TSX
 
 import { useMotionValue, motion, useMotionValueEvent } from "framer-motion";
@@ -31,6 +39,12 @@ export default MotionValueComponent;
 ```
 
 <h1  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/ff088a87-fbc2-4962-9711-49e639e5ea11" width="400px" height="392px"/>
+
+</h1>
 
 ```TSX
 
@@ -124,6 +138,12 @@ body {
 </br>
 
 <h1  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h1>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/9d65dcbc-4fdf-420e-9d62-dca444c4e84e" width="400px" height="388px"/>
+
+</h1>
 
 ```TSX
 

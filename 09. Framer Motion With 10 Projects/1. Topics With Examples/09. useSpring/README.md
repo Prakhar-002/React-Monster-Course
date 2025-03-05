@@ -1,7 +1,15 @@
 
 <h1  align="center" > 🍄 𝐔𝗌𝖾 𝐒ρ𝗋𝗂𐓣𝗀  🥠</h1>
 
+### The useSpring hook allows us to create smooth, spring-based animations. It provides a way to manage animated values that follow a spring physics model, resulting in more natural and fluid motion compared to linear animations.
+
 <h2  align="center" >💡 𝐄𝗑αꭑρᥣ𝖾  1️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/4b8ed050-64b4-4256-a799-cc39499612ab" width="400px" height="389px"/>
+
+</h1>
 
 ```TSX
 
@@ -95,6 +103,12 @@ body {
 </br>
 
 <h2  align="center" > 💡 𝐄𝗑αꭑρᥣ𝖾 2️⃣ </h2>
+
+<h1  align="center" > 
+
+<img src="https://github.com/user-attachments/assets/96d709a2-8abd-4357-a52a-b299abf2669c" width="400px" height="397px"/>
+
+</h1>
 
 ```TSX
 
