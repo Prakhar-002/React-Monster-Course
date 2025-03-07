@@ -102,7 +102,7 @@ export default App;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/5deab9a7-d5d6-417e-9547-e317879a7f20" width="250px" height="157px"/>
 
 </h1>
 
@@ -126,13 +126,13 @@ const FadeComponent = () => {
       </button>
       {visible && (
         <motion.div
-          className="p-4 bg-gray-200 rounded"
+          className="p-4 bg-teal-400 text-black rounded"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Hello, I'm a fading component!
+          Hello, I'm a Fading component!🥲
         </motion.div>
       )}
     </div>
@@ -149,7 +149,7 @@ export default FadeComponent;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/9f9a8e90-d422-4ce3-8367-efbaa12587b7" width="400px" height="389px"/>
 
 </h1>
 
@@ -195,7 +195,7 @@ export default Sidebar;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/38df15e4-a54d-40ce-8533-52a80de9e130" width="400px" height="394px"/>
 
 </h1>
 
@@ -255,7 +255,7 @@ export default Modal;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/ce5af972-5044-4a12-b995-48bda8657eac" width="200px" height="118px"/>
 
 </h1>
 
@@ -287,7 +287,7 @@ export default ResponsiveButton;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/c151ec2e-7464-4d4f-b695-d6ffa297f2af" width="350px" height="297px"/>
 
 </h1>
 
@@ -345,7 +345,7 @@ export default Accordion;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/62dd9ae3-5006-4fa5-bd66-6dba23f87c9d" width="400px" height="392px"/>
 
 </h1>
 
@@ -390,5 +390,3 @@ const ToastNotification = () => {
 export default ToastNotification;
 
 ```
-
-</br>
