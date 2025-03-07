@@ -7,6 +7,7 @@
 <img src="https://github.com/user-attachments/assets/37f0985a-bf02-4ed0-a191-b236a4072acd" width="250px" height="250px"/>
 
 </br>
+</br>
 
 Framer Motion is a popular open-source library for React.js that allows developers to create `animations and transitions easily` • It provides a set of tools and APIs to animate components, enabling smooth, high-performance animations with minimal effort.
 
