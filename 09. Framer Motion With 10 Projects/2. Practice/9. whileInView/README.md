@@ -1,40 +1,40 @@
 <h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
-### Exercise 1: Staggered Fade and Slide In
+### Exercise 1️⃣: Staggered Fade and Slide In
 
-**Goal:** Create a list of items that fade and slide in staggered when they come into view.
+**🎯 Objective:** Create a list of items that fade and slide in staggered when they come into view.
 
-**Steps:**
+**Instructions:** 📑
 
 1. Create an array of items to display.
 2. Use a `motion.ul` for the list and `motion.li` for each item.
 3. Implement staggered animations using `variants` and the `transition` prop.
 
-### Exercise 2: Card Flip Animation
+### Exercise 2️⃣: Card Flip Animation
 
-**Goal:** Create a card that flips when it comes into view, revealing its back side.
+**🎯 Objective:** Create a card that flips when it comes into view, revealing its back side.
 
-**Steps:**
+**Instructions:** 📑
 
 1. Create a card component with a front and back side.
 2. Use `whileInView` to animate the rotation along the Y-axis.
 3. Style with Tailwind CSS.
 
-### Exercise 3: Complex Timeline Animation
+### Exercise 3️⃣: Complex Timeline Animation
 
-**Goal:** Create a sequence of animations that occurs when a section comes into view, including rotation, scaling, and fading.
+**🎯 Objective:** Create a sequence of animations that occurs when a section comes into view, including rotation, scaling, and fading.
 
-**Steps:**
+**Instructions:** 📑
 
 1. Set up multiple elements that will animate in a sequence.
 2. Use variants for complex animations.
 3. Control timing with the `transition` property.
 
-### Exercise 4: Interactive Hover and In-View Animation
+### Exercise 4️⃣: Interactive Hover and In-View Animation
 
-**Goal:** Create a grid of cards that scale and change color when hovered over and animate in when in view.
+**🎯 Objective:** Create a grid of cards that scale and change color when hovered over and animate in when in view.
 
-**Steps:**
+**Instructions:** 📑
 
 1. Create a grid layout of cards.
 2. Use `whileInView` for entrance animations.

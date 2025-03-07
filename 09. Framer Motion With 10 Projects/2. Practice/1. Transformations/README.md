@@ -1,47 +1,46 @@
-
 <h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
-### Exercise 1: Basic Translation
+### Exercise 1️⃣: Basic Translation
 
-**Objective:** Create a box that moves across the screen.
+**🎯 Objective:** Create a box that moves across the screen.
 
-1. **Setup:** Create a simple box using a `div`.
-2. **Task:** Use Framer Motion to animate the box from the left side of the screen to the right.
+1. **⚙️ Setup:** Create a simple box using a `div`.
+2. **🏃‍♂️ Task:** Use Framer Motion to animate the box from the left side of the screen to the right.
 
-### Exercise 2: Vertical Movement
+### Exercise 2️⃣: Vertical Movement
 
-**Objective:** Make a circle bounce up and down.
+**🎯 Objective:** Make a circle bounce up and down.
 
-1. **Setup:** Create a circle using CSS.
-2. **Task:** Animate the circle to move vertically, bouncing at the top and bottom of the container.
+1. **⚙️ Setup:** Create a circle using CSS.
+2. **🏃‍♂️ Task:** Animate the circle to move vertically, bouncing at the top and bottom of the container.
 
-### Exercise 3: Rotation Animation
+### Exercise 3️⃣: Rotation Animation
 
-**Objective:** Spin an icon continuously.
+**🎯 Objective:** Spin an icon continuously.
 
-1. **Setup:** Use an SVG icon or image.
-2. **Task:** Animate the icon to rotate indefinitely.
+1. **⚙️ Setup:** Use an SVG icon or image.
+2. **🏃‍♂️ Task:** Animate the icon to rotate indefinitely.
 
-### Exercise 4: Skewed Transition
+### Exercise 4️⃣: Skewed Transition
 
-**Objective:** Animate a rectangle that skews when clicked.
+**🎯 Objective:** Animate a rectangle that skews when clicked.
 
-1. **Setup:** Create a rectangle using tailwind CSS.
-2. **Task:** On click, skew the rectangle and return to normal when clicked again.
+1. **⚙️ Setup:** Create a rectangle using tailwind CSS.
+2. **🏃‍♂️ Task:** On click, skew the rectangle and return to normal when clicked again.
 
-### Exercise 5: Combined Transformations
+### Exercise 5️⃣: Combined Transformations
 
-**Objective:** Create a complex animation combining multiple transformations.
+**🎯 Objective:** Create a complex animation combining multiple transformations.
 
-1. **Setup:** Create a shape (e.g., a square or circle).
-2. **Task:** Animate the shape to move diagonally while rotating and scaling simultaneously.
+1. **⚙️ Setup:** Create a shape (e.g., a square or circle).
+2. **🏃‍♂️ Task:** Animate the shape to move diagonally while rotating and scaling simultaneously.
 
-### Exercise 6: Sequential Transformations
+### Exercise 6️⃣: Sequential Transformations
 
-**Objective:** Create an animation sequence.
+**🎯 Objective:** Create an animation sequence.
 
-1. **Setup:** Use multiple elements (e.g., squares).
-2. **Task:** Animate them in a sequence where one moves right, then the next one follows after a delay, using different transformations (e.g., move, rotate).
+1. **⚙️ Setup:** Use multiple elements (e.g., squares).
+2. **🏃‍♂️ Task:** Animate them in a sequence where one moves right, then the next one follows after a delay, using different transformations (e.g., move, rotate).
 
 </br>
 

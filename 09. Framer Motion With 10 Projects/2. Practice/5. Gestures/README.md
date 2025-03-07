@@ -1,60 +1,60 @@
 <h1  align="center" >📚 𝐀𝗌𝗌𝗂𝗀𐓣ꭑ𝖾𐓣𝗍 🎧 𝚰𐓣𝗌𝗍𝗋υ𝖼𝗍𝗂ⱺ𐓣𝗌 🧋</h1>
 
-### Exercise 1: Swipeable Card
+### Exercise 1️⃣: Swipeable Card
 
-**Objective:** Create a card that can be swiped left or right to remove it from the view.
+**🎯 Objective:** Create a card that can be swiped left or right to remove it from the view.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` to represent the card.
 2. Use Framer Motion's `useDrag` to detect swipe gestures.
 3. Animate the card's position based on the swipe.
 
-### Exercise 2: Draggable Box
+### Exercise 2️⃣: Draggable Box
 
-**Objective:** Create a box that can be dragged around the screen.
+**🎯 Objective:** Create a box that can be dragged around the screen.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` that represents the box.
 2. Use Framer Motion's `drag` functionality to allow dragging.
 3. Style the box with Tailwind CSS.
 
-### Exercise 3: Rotate on Drag
+### Exercise 3️⃣: Rotate on Drag
 
-**Objective:** Create a box that rotates when dragged.
+**🎯 Objective:** Create a box that rotates when dragged.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` that represents the box.
 2. Use the `onDrag` event to calculate the rotation angle.
 3. Animate the rotation of the box based on the drag movement.
 
-### Exercise 4: Tap to Change Color
+### Exercise 4️⃣: Tap to Change Color
 
-**Objective:** Create a box that changes color when tapped.
+**🎯 Objective:** Create a box that changes color when tapped.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` for the box.
 2. Use the `onTap` event to change the box's color.
 3. Use Tailwind CSS for styling.
 
-### Exercise 5: Long Press to Change Size
+### Exercise 5️⃣: Long Press to Change Size
 
-**Objective:** Create a box that changes its size when long-pressed.
+**🎯 Objective:** Create a box that changes its size when long-pressed.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` that represents the box.
 2. Use the `onTap` event to detect long presses.
 3. Animate the size change when the box is long-pressed.
 
-### Exercise 6: Gesture-Based Image Gallery
+### Exercise 6️⃣: Gesture-Based Image Gallery
 
-**Objective:** Create an image gallery that can be navigated using vertical swipe gestures.
+**🎯 Objective:** Create an image gallery that can be navigated using vertical swipe gestures.
 
-**Instructions:**
+**Instructions 📑:**
 
 1. Create a `motion.div` for the gallery that contains the images.
 2. Implement swipe gestures to navigate between images vertically (up and down).
