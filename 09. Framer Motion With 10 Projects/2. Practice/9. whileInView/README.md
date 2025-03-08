@@ -169,7 +169,7 @@ export default CardFlip;
 
 <h1  align="center" > 
 
-<img src="https://github.com/user-attachments/assets/a3465ffa-9989-4ae5-9ed8-997416d4552b" width="400px" height="316px"/>
+<img src="https://github.com/user-attachments/assets/a3465ffa-9989-4ae5-9ed8-997416d4552b"/>
 
 </h1>
 
