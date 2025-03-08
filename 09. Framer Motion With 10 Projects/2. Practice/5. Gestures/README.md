@@ -101,7 +101,7 @@ export default App;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/e4d555c5-1b4f-4f53-8cf7-0d1ea3faba16" width="400px" height="385px"/>
 
 </h1>
 
@@ -147,7 +147,7 @@ export default SwipeableCard;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/94df9c05-0406-4eb5-924e-0c99951fc34e" width="400px" height="385px"/>
 
 </h1>
 
@@ -179,7 +179,7 @@ export default DraggableBox;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/b5dc62f8-96d5-4dd1-9177-b2b2e4962295" width="350px" height="303px"/>
 
 </h1>
 
@@ -220,7 +220,7 @@ export default RotateOnDrag;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/371b04a2-8cea-4994-8c11-6989d675c11d" width="300px" height="281px"/>
 
 </h1>
 
@@ -260,7 +260,7 @@ export default TapToChangeColor;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/c9d5ddcd-2e80-4145-a2fe-f2e8425f082d" width="350px" height="310px"/>
 
 </h1>
 
@@ -301,7 +301,7 @@ export default LongPressToChangeSize;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/dfb0efb7-02ca-436c-bebb-9c7e9142ae66" width="400px" height="391px"/>
 
 </h1>
 
