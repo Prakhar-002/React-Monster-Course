@@ -110,7 +110,7 @@ export default App;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/84c57b9a-d61b-45c5-b531-8f5a3d10e3f0" width="193px" height="300px"/>
 
 </h1>
 
@@ -147,7 +147,7 @@ export default BouncingBall;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/e84346cd-886d-41d3-83a4-d7514e38fa54" width="200px" height="137px"/>
 
 </h1>
 
@@ -186,7 +186,7 @@ export default PulsatingButton;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/1f50bbb1-ff30-4939-a6fe-f7ed07fb8b89" width="200px" height="203px"/>
 
 </h1>
 
@@ -222,7 +222,7 @@ export default ColorChangeSquare;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/455f3dbd-2e7f-4378-8cff-2e65069a8fb7" width="200ox" height="104px"/>
 
 </h1>
 
@@ -255,7 +255,7 @@ export default SlidingText;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/499c00c9-dbcb-4c3e-91d1-c421d348b5b5" width="200px" height="173px"/>
 
 </h1>
 
@@ -292,7 +292,7 @@ export default ZigzagAnimation;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/991206e7-1a90-496d-aa40-174a5b674f07" width="200px" height="117px"/>
 
 </h1>
 
@@ -334,7 +334,7 @@ export default WaveEffect;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/54719c6b-61fb-4af0-8e17-bff94809d0c3" width="250px" height="253px"/>
 
 </h1>
 
