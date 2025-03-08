@@ -35,7 +35,7 @@ export default App;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/627db90a-cd4d-49df-9bd7-c261e42cf298" width="300px" height="304px"/>
 
 </h1>
 
@@ -78,7 +78,7 @@ export default DraggableBox;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/36e27620-f985-49c4-bcbd-f1d95fcb858f" width="250px" height="200px"/>
 
 </h1>
 
@@ -113,7 +113,7 @@ export default HoverLinkedScale;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/931e20be-a35b-44e9-a82c-177a6d647f21" width="350px" height="329px"/>
 
 </h1>
 
@@ -155,7 +155,7 @@ export default SpringAnimatedPosition;
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/c7dec515-5472-4d52-8383-e87819d81d77" width="250px" height="226px"/>
 
 </h1>
 
