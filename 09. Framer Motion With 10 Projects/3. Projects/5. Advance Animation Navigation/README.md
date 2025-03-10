@@ -2,7 +2,7 @@
 
 <h1  align="center" > 
 
-<img src="https://github.com/user-attachments/assets/750e9ea4-cc8d-4ff1-8937-9b89aa801d67" width="400px" height="389px"/>
+<img src="https://github.com/user-attachments/assets/750e9ea4-cc8d-4ff1-8937-9b89aa801d67" width="600px" height="590px"/>
 
 </h1>
 
