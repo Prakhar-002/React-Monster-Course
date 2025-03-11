@@ -1,5 +1,5 @@
 
-<h2  align="center" > 🕍  🏄‍♀️</h2>
+<h2  align="center" > 🕍 𝐑𝖾𝖼𝗂ρ𝗂𝖾 𝐀ρρ 🏄‍♀️</h2>
 
 <h1  align="center" > 
 
@@ -64,7 +64,7 @@ export default App;
 
 ```TSX
 
-//============ components/PulsingButton.tsx ============== 
+//============ components/RecipeApp.tsx ============== 
 
 import { useState } from "react";
 import useStore from "../store";

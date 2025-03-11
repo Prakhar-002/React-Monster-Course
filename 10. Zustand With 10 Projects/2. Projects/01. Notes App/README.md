@@ -70,7 +70,7 @@ export default App;
 
 ```TSX
 
-//============ components/PulsingButton.tsx ============== 
+//============ components/NotesApp.tsx ============== 
 
 import { useState } from "react";
 import useStore from "../store";
