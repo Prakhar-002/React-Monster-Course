@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/917c4e4b-9b56-4e8d-9066-91cf40b5939c" width="700px" height="445px"/>
 
 </h1>
 
@@ -121,42 +121,64 @@ const FormBuilder = () => {
   };
 
   return (
-    <div>
-      <h1>Form Builder</h1>
-      <div>
-        <input
-          type="text"
-          name="label"
-          placeholder="Field Label"
-          value={newField.label}
-          onChange={handleFieldChange}
-        />
-        <select name="type" value={newField.type} onChange={handleFieldChange}>
-          <option value="text">Text</option>
-          <option value="number">Number</option>
-          <option value="password">Password</option>
-          <option value="textarea">Textarea</option>
-          <option value="date">Date</option>
-          <option value="file">File</option>
-        </select>
-        <button type="button" onClick={handleAddField}>
-          Add Field
-        </button>
-        <button type="button" onClick={resetForm}>
-          Reset Form
-        </button>
-      </div>
-      <form>
-        {formFields.map((field, index) => (
-          <FormField
-            key={index}
-            field={field}
-            index={index}
-            onUpdate={handleFieldUpdate}
-            onRemove={handleFieldRemove}
+    <div className=" bg-gray-300 min-h-screen">
+      <div className="max-w-3xl bg-gray-400 mx-auto p-6 shadow-lg rounded-lg">
+        <h1 className="text-2xl  font-semibold mb-4 text-center">Form Builder</h1>
+
+        {/* New Field Input Section */}
+        <div className="flex flex-col md:flex-row gap-4 mb-6">
+          <input
+            type="text"
+            name="label"
+            placeholder="Field Label"
+            value={newField.label}
+            onChange={handleFieldChange}
+            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
-        ))}
-      </form>
+          <select
+            name="type"
+            value={newField.type}
+            onChange={handleFieldChange}
+            className="w-full p-2 border rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            <option value="text">Text</option>
+            <option value="number">Number</option>
+            <option value="password">Password</option>
+            <option value="textarea">Textarea</option>
+            <option value="date">Date</option>
+            <option value="file">File</option>
+          </select>
+          <div className="flex justify-between space-x-2">
+            <button
+              type="button"
+              onClick={handleAddField}
+              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+            >
+              Add Field
+            </button>
+            <button
+              type="button"
+              onClick={resetForm}
+              className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
+            >
+              Reset Form
+            </button>
+          </div>
+        </div>
+
+        {/* Form Fields Display */}
+        <form className="space-y-4">
+          {formFields.map((field, index) => (
+            <FormField
+              key={index}
+              field={field}
+              index={index}
+              onUpdate={handleFieldUpdate}
+              onRemove={handleFieldRemove}
+            />
+          ))}
+        </form>
+      </div>
     </div>
   );
 };
@@ -240,20 +262,54 @@ const FormField: React.FC<FormFieldProps> = ({
   }
 
   return (
-    <div>
-      <label>
-        {field.label}
+    <div className="flex flex-col gap-2 p-4 bg-gray-100 rounded-lg shadow-md">
+      <label className="text-sm font-semibold">{field.label}</label>
+
+      {field.type === "textarea" ? (
+        <textarea
+          value={field.value}
+          onChange={handleChange}
+          className="w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-400"
+        />
+      ) : field.type === "file" ? (
+        <div className="flex flex-col gap-2">
+          <input
+            type="file"
+            onChange={(e) =>
+              onUpdate(index, {
+                ...field,
+                value: e.target.files
+                  ? Array.from(e.target.files)
+                    .map((file) => file.name)
+                    .join(", ")
+                  : "",
+              })
+            }
+            className="p-2 border rounded-md focus:ring-2 focus:ring-blue-400"
+          />
+          {field.value && (
+            <p className="text-sm text-gray-600">Selected: {field.value}</p>
+          )}
+        </div>
+      ) : (
         <input
           type={field.type}
-          value={field.type === "file" ? "" : field.value}
+          value={field.type === "file" ? undefined : field.value} // Use 'undefined' instead of an empty string
           onChange={handleChange}
+          className="w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-400"
         />
-      </label>
-      <button type="button" onClick={() => onRemove(index)}>
+      )}
+
+      <button
+        type="button"
+        onClick={() => onRemove(index)}
+        className="self-start px-3 py-1 text-white bg-red-500 rounded-md hover:bg-red-600 transition"
+      >
         Remove
       </button>
     </div>
   );
+
 };
 
 export default FormField;

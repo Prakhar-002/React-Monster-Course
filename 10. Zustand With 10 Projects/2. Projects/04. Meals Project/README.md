@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/a68a0ebc-58f7-4c1f-b0b3-1ac3f41532a7" width="" height=""/>
 
 </h1>
 
@@ -63,53 +63,58 @@ import { useEffect } from "react";
 import { useStore } from "../store";
 
 function Meals() {
-  const { meals, searchQuery, setMeals, setSearchQuery } = useStore();
+    const { meals, searchQuery, setMeals, setSearchQuery } = useStore();
 
-  useEffect(() => {
-    const fetchMeals = async () => {
-      try {
-        const response = await fetch(
-          "https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood"
-        );
-        const data = await response.json();
-        setMeals(data.meals);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
+    useEffect(() => {
+      const fetchMeals = async () => {
+        try {
+          const response = await fetch(
+            "https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood"
+          );
+          const data = await response.json();
+          setMeals(data.meals);
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      };
 
-    fetchMeals();
-  }, [setMeals]);
+      fetchMeals();
+    }, [setMeals]);
 
-  const filteredMeals = meals.filter((meal) =>
-    meal.strMeal.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+    const filteredMeals = meals.filter((meal) =>
+      meal.strMeal.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
-  return (
-    <div>
-      <h1>Seafood Recipes</h1>
-      <input
-        type="text"
-        placeholder="Search for a meal..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      />
-      <div>
-        {filteredMeals.length > 0 ? (
-          filteredMeals.map((meal) => (
-            <div key={meal.idMeal}>
-              <h2>{meal.strMeal}</h2>
-              <img src={meal.strMealThumb} alt={meal.strMeal} />
-            </div>
-          ))
-        ) : (
-          <p>No meals found</p>
-        )}
+    return (
+      <div className="max-w-4xl mt-3 mx-auto p-6 bg-gray-200 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Seafood Recipes</h1>
+        <input
+          type="text"
+          placeholder="Search for a meal..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-full p-3 mb-6 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredMeals.length > 0 ? (
+            filteredMeals.map((meal) => (
+              <div key={meal.idMeal} className="bg-white p-4 rounded-lg shadow-md">
+                <img
+                  src={meal.strMealThumb}
+                  alt={meal.strMeal}
+                  className="w-full h-40 object-cover rounded-lg mb-4"
+                />
+                <h2 className="text-xl font-semibold text-gray-700">{meal.strMeal}</h2>
+              </div>
+            ))
+          ) : (
+            <p className="text-center text-gray-500 col-span-full">No meals found</p>
+          )}
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
-export default Meals;
+  export default Meals;
 
 ```
