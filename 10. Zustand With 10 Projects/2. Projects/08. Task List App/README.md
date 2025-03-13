@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/70598d81-dae8-4e3b-b4a5-00dbd24b76c6" width="" height=""/>
 
 </h1>
 
@@ -218,74 +218,68 @@ function App() {
   } = useStore();
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen bg-gray-100">
+      {/* Sidebar */}
       <Sidebar />
+
+      {/* Main Content */}
       <div className="flex-1 p-6">
         <MainArea />
-        <div className="mt-6">
-          <h2 className="text-xl font-semibold mb-4 ml-[2rem]">Todo List</h2>
-          <ul className="list-disc pl-5">
+
+        {/* Todo List Section */}
+        <div className="mt-6 bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Todo List</h2>
+          <ul className="space-y-3">
             {todos.map((todo, index) => (
-              <li key={index} className="mb-2 ml-[2rem]">
+              <li key={index} className="bg-gray-50 shadow-sm rounded-lg p-4 flex justify-between items-center hover:bg-gray-100 transition">
                 {editIndex === index ? (
-                  <div className="flex items-center">
+                  <div className="flex items-center w-full">
                     <input
                       type="text"
                       value={editText}
                       onChange={(e) => setEditText(e.target.value)}
-                      className="border border-gray-300 p-1 rounded-lg mr-2"
+                      className="flex-1 border border-gray-300 p-2 rounded-lg focus:ring-2 focus:ring-blue-400"
                     />
                     <button
                       onClick={() => handleUpdate(index)}
-                      className="bg-green-500 text-white px-2 py-1
-                       rounded-lg mr-2"
+                      className="ml-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition"
                     >
                       Update
                     </button>
                     <button
                       onClick={() => setEditIndex(null)}
-                      className="bg-gray-500 text-white px-2 py-1
-                       rounded-lg"
+                      className="ml-2 bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition"
                     >
                       Cancel
                     </button>
                   </div>
                 ) : (
-                  <div className="relative flex justify-between items-center">
+                  <div className="flex justify-between items-center w-full">
                     <div>
-                      <span className="mr-4">
-                        <strong>{todo.text}</strong> (List: {todo.list},
-                        Workspace: {todo.workspace})
-                      </span>
+                      <strong className="text-gray-800">{todo.text}</strong>
+                        <span className="text-gray-500 ml-2">(<b>List</b> : {todo.list}), <b>Workspace</b>: {todo.workspace}</span>
                     </div>
-                    <div className="flex items-center">
-                      <MdMoreVert
-                        onClick={() => handleDropdownClick(index)}
-                        size={24}
-                        className="cursor-pointer"
-                      />
-                      {dropdownIndex === index && (
-                        <div
-                          className="absolute right-0 mt-2 bg-white
-                         border rounded shadow-lg"
+                    <MdMoreVert
+                      className="cursor-pointer text-gray-700 hover:text-gray-900 transition"
+                      size={24}
+                      onClick={() => handleDropdownClick(index)}
+                    />
+                    {dropdownIndex === index && (
+                      <div className="absolute right-0 mt-2 bg-white border rounded-lg shadow-lg w-32">
+                        <button
+                          onClick={() => handleEdit(index)}
+                          className="block px-4 py-2 text-gray-700 hover:bg-gray-100 w-full text-left"
                         >
-                          <button
-                            onClick={() => handleEdit(index)}
-                            className="block px-4 py-2 text-gray-700
-                             hover:bg-gray-100 w-full text-left"
-                          >
-                            Update
-                          </button>
-                          <button
-                            onClick={() => deleteTodo(index)}
-                            className="block px-4 py-2 text-gray-700
-                             hover:bg-gray-100 w-full text-left"
-                          >
-                            Delete
-                          </button>
-                        </div>
-                      )}
-                    </div>
+                          Edit
+                        </button>
+                        <button
+                          onClick={() => deleteTodo(index)}
+                          className="block px-4 py-2 text-red-600 hover:bg-red-100 w-full text-left"
+                        >
+                          Delete
+                        </button>
+                      </div>
+                    )}
                   </div>
                 )}
               </li>
@@ -293,9 +287,13 @@ function App() {
           </ul>
         </div>
       </div>
-      <Modal />
+
+      {/* Modal */}
+      <Model />
     </div>
   );
+
+
 }
 
 export default App;
@@ -312,58 +310,51 @@ import { useStore } from "../store";
 const Sidebar = () => {
   const { lists, workspaces, openListModal, openWorkspaceModal } = useStore();
 
+
+
   return (
-    <div className="w-60 bg-[#F9F9F9] flex flex-col">
-      <div className="flex-1 overflow-y-auto">
-        <div className="p-4">
-          <h3 className="text-lg font-semibold flex items-center">Lists</h3>
-          {/* Render Lists */}
-          <ul>
-            {lists.map((list, index) => (
-              <li
-                key={index}
-                className="p-2 hover:bg-[#ccc] rounded-lg
-                 cursor-pointer flex items-center"
-              >
-                <span className="mr-2">{list.emoji}</span>
-                {list.name}
-              </li>
-            ))}
-          </ul>
-          <button
-            onClick={openListModal}
-            className="flex justify-center items-center mt-[1rem]"
-          >
-            <FaPlus className="mr-2" /> List
-          </button>
-        </div>
-        <div className="p-4">
-          <h3 className="text-lg font-semibold flex items-center">
-            Workspaces
-          </h3>
-          {/* Render Workspaces */}
-          <ul>
-            {workspaces.map((workspace, index) => (
-              <li
-                key={index}
-                className="p-2 hover:bg-[#ccc] rounded-lg 
-                cursor-pointer flex items-center"
-              >
-                <span className="mr-2">{workspace.emoji}</span>
-                {workspace.name}
-              </li>
-            ))}
-          </ul>
-          <button
-            onClick={openWorkspaceModal}
-            className="flex justify-center items-center mt-[1rem]"
-          >
-            <FaPlus className="mr-2" /> Workspace
-          </button>
-        </div>
+    <div className="min-w-72 bg-gray-100 shadow-md flex flex-col p-4">
+      <div className="flex-1  overflow-y-auto">
+        {/* Lists Section */}
+        <h3 className="text-lg font-semibold text-gray-800">Lists</h3>
+        <ul className="space-y-2 mt-2">
+          {lists.map((list, index) => (
+            <li key={index} className="flex items-center p-2 rounded-lg hover:bg-gray-300 bg-gray-200 transition cursor-pointer">
+              <span className="mr-2 text-lg">{list.emoji}</span>
+              {list.name}
+            </li>
+          ))}
+        </ul>
+
+        <button
+          onClick={openListModal}
+          className="flex items-center justify-center mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition"
+        >
+          <FaPlus className="mr-2" /> New List
+        </button>
+
+        {/* Workspaces Section */}
+        <h3 className="text-lg font-semibold mt-6 text-gray-800">Workspaces</h3>
+        <ul className="space-y-2 mt-2">
+          {workspaces.map((workspace, index) => (
+            <li key={index} className="flex items-center p-2 rounded-lg hover:bg-gray-300 bg-gray-200 transition cursor-pointer">
+              <span className="mr-2 text-lg">{workspace.emoji}</span>
+              {workspace.name}
+            </li>
+          ))}
+        </ul>
+
+        <button
+          onClick={openWorkspaceModal}
+          className="flex items-center justify-center mt-4 bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition"
+        >
+          <FaPlus className="mr-2" /> New Workspace
+        </button>
       </div>
     </div>
   );
+
+
 };
 
 export default Sidebar;
@@ -390,55 +381,59 @@ const MainArea = () => {
     handleAddTodo,
   } = useStore();
 
+
   return (
     <div className="flex-1 p-6">
-      <div className="mb-4">
-        <input
-          type="text"
+      <div className=" mb-4">
+        <input type="text"
           value={todoText}
           onChange={(e) => setTodoText(e.target.value)}
-          placeholder="Add a new todo"
-          className="border border-gray-300 p-2 rounded-lg w-full"
+          placeholder="Add A New Todo"
+          className=" border border-gray-300 p-2 rounded-lg w-full"
         />
-        <div className="mt-2 flex items-center">
+
+
+        <div className=" mt-2 flex items-center">
           <select
             value={selectedList}
             onChange={(e) => setSelectedList(e.target.value)}
-            className="border border-gray-300 p-2 rounded-lg mr-2"
+            className="border border-gray-300 p-2 rounded-lg mr-2 "
           >
-            <option value="" disabled>
-              Select List
-            </option>
+            <option value="" disabled>Select List</option>
+
             {lists.map((list, index) => (
-              <option key={index} value={list.name}>
+              <option value={list.name} key={index} >
                 {list.emoji} {list.name}
               </option>
             ))}
           </select>
+
           <select
             value={selectedWorkspace}
             onChange={(e) => setSelectedWorkspace(e.target.value)}
             className="border border-gray-300 p-2 rounded-lg"
           >
-            <option value="" disabled>
-              Select Workspace
-            </option>
+            <option value="" disabled>Select Workspace</option>
+
             {workspaces.map((workspace, index) => (
-              <option key={index} value={workspace.name}>
+              <option value={workspace.name} key={index}>
                 {workspace.emoji} {workspace.name}
               </option>
             ))}
           </select>
+
           <button
             onClick={handleAddTodo}
-            className="bg-black text-white px-4 py-2 rounded-lg ml-4 flex items-center"
+            className=" bg-black text-white px-4 py-2 rounded-lg ml-4 flex items-center"
           >
             <FaPlus className="mr-2" /> Add Todo
           </button>
+
         </div>
       </div>
     </div>
-  );
+  )
+
 };
 
 export default MainArea;
@@ -481,43 +476,38 @@ const Modal = () => {
   if (!isListModalOpen && !isWorkspaceModalOpen) return null;
 
   return (
-    <div
-      className="fixed inset-0 flex items-center
-     justify-center bg-gray-900 bg-opacity-50 z-50"
-    >
-      <div className="bg-white p-6 rounded-lg w-80">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
+      <div className="bg-white rounded-lg shadow-lg p-6 w-96">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl font-bold">{`Create New ${modalType}`}</h2>
-          <button
-            onClick={handleClose}
-            className="text-gray-600 hover:text-gray-900"
-          >
+          <h2 className="text-xl font-bold text-gray-800">{`Create New ${modalType}`}</h2>
+          <button onClick={handleClose} className="text-gray-500 hover:text-gray-700 transition">
             <FaTimes />
           </button>
         </div>
+
         <input
           type="text"
           value={modalName}
           onChange={(e) => setModalName(e.target.value)}
           placeholder={`Enter ${modalType} name`}
-          className="border border-gray-300 p-2 rounded-lg w-full mb-4"
+          className="w-full border border-gray-300 p-2 rounded-lg mb-4 focus:ring-2 focus:ring-blue-400"
         />
+
         <input
           type="text"
           value={modalEmoji}
           onChange={(e) => setModalEmoji(e.target.value)}
           placeholder="Enter emoji (optional)"
-          className="border border-gray-300 p-2 rounded-lg w-full mb-4"
+          className="w-full border border-gray-300 p-2 rounded-lg mb-4"
         />
-        <button
-          onClick={handleSave}
-          className="bg-black text-white px-4 py-2 rounded-lg"
-        >
+
+        <button onClick={handleSave} className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
           Save
         </button>
       </div>
     </div>
   );
+
 };
 
 export default Modal;

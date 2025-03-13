@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/b46675b4-e545-499f-913f-69def5ce20a7" width="" height=""/>
 
 </h1>
 
@@ -200,9 +200,9 @@ import Question from "./Question";
 
 const QuizLayout = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen bg-gray-300">
       <Sidebar />
-      <div className="flex-1 flex flex-col items-center justify-center">
+      <div className="flex-1 flex flex-col items-center justify-center p-6">
         <Question />
       </div>
     </div>
@@ -224,17 +224,15 @@ const Sidebar = () => {
   const { questions, currentQuestion } = useQuizStore();
 
   return (
-    <div className="w-1/4 bg-gray-100 p-4">
-      <h2 className="text-xl font-bold mb-4">Quiz Progress</h2>
+    <div className="w-1/5 pl-5  bg-teal-800 p-4 shadow-md">
+      <h2 className="text-xl text-center font-bold mb-4 text-black">Quiz Progress</h2>
       <ul>
         {questions.map((_, index) => (
-          <li key={index} className="mb-2 flex items-center">
+          <li key={index} className="mb-2 bg-gray-200 rounded-md p-2 flex items-center">
             <FaCheckCircle
-              className={`mr-2 ${
-                index <= currentQuestion ? "text-green-500" : "text-gray-400"
-              }`}
+              className={`mr-2 ${index <= currentQuestion ? "text-green-600" : "text-gray-800"}`}
             />
-            <span>Question {index + 1}</span>
+            <span className="text-gray-700">Question {index + 1}</span>
           </li>
         ))}
       </ul>
@@ -267,15 +265,14 @@ const Question = () => {
 
   if (showScore) {
     return (
-      <div className="w-3/4 p-6">
-        <h2 className="text-2xl font-semibold">Your Score</h2>
-        <p className="mt-4 text-lg">
-          You scored {score} out of {questions.length}
+      <div className="w-3/4 h-3/4 p-6  bg-white shadow-lg rounded-lg flex flex-col items-center justify-center">
+        <h2 className="text-2xl font-semibold text-teal-700">Your Score</h2>
+        <p className="mt-4 text-lg text-gray-700">
+          You scored <span className="font-bold">{score}</span> out of <span className="font-bold">{questions.length}</span>
         </p>
         <button
           onClick={resetQuiz}
-          className="mt-6 px-4 py-2 bg-blue-500 text-white
-           rounded hover:bg-blue-600"
+          className="mt-6 px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-700 transition-all"
         >
           Restart Quiz
         </button>
@@ -295,19 +292,20 @@ const Question = () => {
   };
 
   return (
-    <div className="w-3/4 p-6">
-      <h3 className="text-2xl font-semibold">{question.question}</h3>
+    <div className="w-3/4 p-6 border-l-4 border-teal-700 bg-white shadow-lg rounded-lg">
+      <h3 className="text-2xl font-semibold text-teal-700"> {question.question}</h3>
       <div className="mt-4">
         {question.options.map((option, index) => (
           <div key={index} className="my-2">
-            <label className="flex items-center">
+            <label className="flex items-center w-full h-6 border-l-4 rounded-lg p-4 border-teal-700 text-gray-900 cursor-pointer">
               <input
                 type="radio"
                 name={`question-${currentQuestion}`}
                 checked={currentAnswer === index}
                 onChange={() => handleSelect(index)}
-                className="mr-2"
+                className="mr-2 accent-teal-600"
               />
+
               {option}
             </label>
           </div>
@@ -318,8 +316,7 @@ const Question = () => {
         {currentQuestion > 0 && (
           <button
             onClick={prevQuestion}
-            className="mr-4 px-4 py-2 bg-gray-500
-             text-white rounded hover:bg-gray-600"
+            className="mr-4 px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
           >
             Previous
           </button>
@@ -328,16 +325,14 @@ const Question = () => {
         {currentQuestion < questions.length - 1 ? (
           <button
             onClick={nextQuestion}
-            className="px-4 py-2 bg-blue-500 
-            text-white rounded hover:bg-blue-600"
+            className="px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-700"
           >
             Next
           </button>
         ) : (
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 bg-green-500
-             text-white rounded hover:bg-green-600"
+            className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
           >
             Submit
           </button>
