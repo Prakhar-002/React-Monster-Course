@@ -3,7 +3,7 @@
 
 <h1  align="center" > 
 
-<img src="" width="" height=""/>
+<img src="https://github.com/user-attachments/assets/5e4d1b0a-aea3-4d74-a7f7-799862ea80ef" width="" height=""/>
 
 </h1>
 
@@ -120,13 +120,15 @@ const App = () => {
   return (
     <>
       <Sidebar />
-      <div className="p-4 flex flex-wrap justify-center items-center">
-        {filteredData.map((product) => (
+
+      <div className="p-4 flex flex-wrap justify-center items-center bg-[#F5F5F5] min-h-screen">
+        {filteredData.map((product: any) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
     </>
   );
+
 };
 
 export default App;
@@ -209,18 +211,17 @@ const Sidebar = () => {
   );
 
   return (
-    <>
+    <div>
       <Navigation toggleSidebar={toggleSidebar} />
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-80 bg-white
-         shadow-lg transform ${
-           isOpen ? "translate-x-0" : "-translate-x-full"
-         } transition-transform duration-300 ease-in-out z-50`}
+        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-lg transform 
+                              ${isOpen ? "translate-x-0" : "-translate-x-full"} 
+                              transition-transform duration-300 ease-in-out z-50 rounded-r-lg `}
       >
         {/* Header with close button */}
-        <div className="flex justify-between items-center p-4 border-b">
+        <div className="flex justify-between items-center p-4 border-b border-[#E5E7EB] bg-[#4A4A4A] text-white">
           <h2 className="text-lg font-semibold">Filters</h2>
           <button onClick={toggleSidebar} className="text-xl">
             <FiX />
@@ -228,14 +229,14 @@ const Sidebar = () => {
         </div>
 
         {/* Filters */}
-        <div className="p-4 space-y-6">
+        <div className="p-4 space-y-6 text-[#4A4A4A]">
           {/* Country Filter */}
           <div>
             <button
-              className="flex justify-between items-center w-full text-left"
+              className="flex justify-between items-center w-full text-left font-medium bg-gray-200 hover:bg-gray-300 p-3 rounded-lg"
               onClick={toggleCountryDropdown}
             >
-              <span className="font-medium">Country</span>
+              <span>Country</span>
               <FiChevronDown
                 className={`transform ${countryDropdown ? "rotate-180" : ""}`}
               />
@@ -245,16 +246,16 @@ const Sidebar = () => {
                 {uniqueCountries.map((country, index) => (
                   <div
                     key={index}
-                    className="flex items-center"
+                    className="flex items-center space-x-2 cursor-pointer p-2 ml-2 rounded-md  hover:bg-[#FACC15] transition bg-gray-100"
                     onClick={() => handleCountrySelection(country)}
                   >
                     <input
                       type="checkbox"
                       checked={selectedCountries.includes(country)}
                       onChange={() => handleCountrySelection(country)}
-                      className="mr-2"
+                      className="accent-[#FACC15] w-5 h-5 cursor-pointer"
                     />
-                    <span>{country}</span>
+                    <span className="text-[#4A4A4A] font-medium">{country}</span>
                   </div>
                 ))}
               </div>
@@ -264,11 +265,10 @@ const Sidebar = () => {
           {/* Color Filter */}
           <div>
             <button
-              className="flex justify-between items-center
-               w-full text-left"
+              className="flex justify-between items-center w-full text-left font-medium bg-gray-200 hover:bg-gray-300 p-4 rounded-lg"
               onClick={toggleColorDropdown}
             >
-              <span className="font-medium">Color</span>
+              <span>Color</span>
               <FiChevronDown
                 className={`transform ${colorDropdown ? "rotate-180" : ""}`}
               />
@@ -278,16 +278,16 @@ const Sidebar = () => {
                 {["black", "brown", "red", "white", "golden"].map((color) => (
                   <div
                     key={color}
-                    className="flex items-center"
+                    className="flex items-center space-x-2 cursor-pointer p-2 ml-2 rounded-md hover:bg-[#FACC15] transition bg-gray-100"
                     onClick={() => handleColorSelection(color)}
                   >
                     <input
                       type="checkbox"
                       checked={selectedColors.includes(color)}
                       onChange={() => handleColorSelection(color)}
-                      className="mr-2"
+                      className="accent-[#FACC15] w-5 h-5 cursor-pointer"
                     />
-                    <span>{color}</span>
+                    <span className="text-[#4A4A4A] font-medium">{color}</span>
                   </div>
                 ))}
               </div>
@@ -297,34 +297,31 @@ const Sidebar = () => {
           {/* Price Filter */}
           <div>
             <button
-              className="flex justify-between items-center 
-              w-full text-left"
+              className="flex justify-between items-center  w-full text-left font-medium bg-gray-200 hover:bg-gray-300 p-4 rounded-lg"
               onClick={togglePriceDropdown}
             >
-              <span className="font-medium">Price</span>
+              <span>Price</span>
               <FiChevronDown
                 className={`transform ${priceDropdown ? "rotate-180" : ""}`}
               />
             </button>
             {priceDropdown && (
               <div className="mt-2 space-y-2">
-                {[
-                  { label: "Below $300", min: 0, max: 300 },
-                  { label: "$300 - $600", min: 300, max: 600 },
-                  { label: "Above $600", min: 600, max: Infinity },
-                ].map((range) => (
+                {[{ label: "Below $300", min: 0, max: 300 },
+                { label: "$300 - $600", min: 300, max: 600 },
+                { label: "Above $600", min: 600, max: Infinity }].map((range) => (
                   <div
                     key={range.label}
-                    className="flex items-center"
+                    className="flex items-center space-x-2 cursor-pointer p-2 ml-2 rounded-md hover:bg-[#FACC15] transition bg-gray-100"
                     onClick={() => handlePriceRangeSelection(range)}
                   >
                     <input
                       type="radio"
                       checked={selectedPriceRange?.label === range.label}
                       onChange={() => handlePriceRangeSelection(range)}
-                      className="mr-2"
+                      className="accent-[#FACC15] w-5 h-5 cursor-pointer"
                     />
-                    <span>{range.label}</span>
+                    <span className="text-[#4A4A4A] font-medium">{range.label}</span>
                   </div>
                 ))}
               </div>
@@ -333,10 +330,10 @@ const Sidebar = () => {
         </div>
 
         {/* Footer */}
-        <div className="p-4 border-t flex justify-between">
+        <div className="p-4 border-t border-[#E5E7EB] bg-[#F9FAFB] absolute bottom-0 w-full flex justify-center">
           <button
             onClick={clearFilters}
-            className="bg-black text-white px-4 py-2 rounded"
+            className="bg-[#4A4A4A] text-white text-lg px-6 py-3 w-[90%] rounded-lg hover:bg-[#D97706] hover:text-black transition"
           >
             Clear all
           </button>
@@ -346,12 +343,14 @@ const Sidebar = () => {
       {/* Background overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black opacity-50 z-40"
+          className="fixed inset-0 bg-black opacity-50 z-40 cursor-pointer"
           onClick={toggleSidebar}
         ></div>
       )}
-    </>
+    </div>
   );
+
+
 };
 
 export default Sidebar;
@@ -369,28 +368,29 @@ interface NavigationProps {
 }
 
 const Navigation = ({ toggleSidebar }: NavigationProps) => {
+
   return (
-    <div
-      className="mt-[2rem] container w-[90%] ml-[5rem]
-     flex justify-between items-center"
-    >
+    <div className="mt-8 container w-[90%] ml-[5rem] flex justify-between items-center bg-[#4A4A4A] p-4 rounded-lg shadow-md">
       <h1 className="logo">
         <IoFilterOutline
-          size={27}
-          className="ml-[4rem] cursor-pointer"
           onClick={toggleSidebar}
+          size={27}
+          className="ml-16 cursor-pointer text-[#FACC15]"
         />
       </h1>
+
       <nav>
-        <ul className="flex items-center mr-[2rem] space-x-4">
-          <li>Search</li>
-          <li>Help</li>
-          <li>My Account</li>
+        <ul className="flex items-center mr-8 space-x-6 text-white font-semibold">
+          <li className="hover:text-[#FACC15] cursor-pointer">Search</li>
+          <li className="hover:text-[#FACC15] cursor-pointer">Help</li>
+          <li className="hover:text-[#FACC15] cursor-pointer">My Account</li>
         </ul>
       </nav>
-      <IoBagOutline size={24} />
+
+      <IoBagOutline size={24} className="text-[#FACC15]" />
     </div>
   );
+
 };
 
 export default Navigation;
@@ -446,35 +446,30 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <div
-      className="relative w-[20rem] m-[1rem] border-[#ECECEC]
-       ml-[3rem] p-4"
+      className="relative w-[20rem] m-4 border border-[#E5E7EB] bg-white shadow-lg rounded-lg p-4"
       onMouseEnter={() => setProductHover(product.id, true)}
       onMouseLeave={() => setProductHover(product.id, false)}
     >
-      <div className="relative  bg-gray-200 p-4">
+      <div className="relative bg-[#E5E7EB] p-4 rounded-md">
         <img
           src={currentImage}
           alt={product.title}
-          className="object-cover w-[12rem] h-[20rem] 
-          rounded-md ml-[1rem]"
+          className="object-cover w-[12rem] h-[20rem] rounded-md ml-8"
         />
         {hover && (
-          <div
-            className="absolute inset-0 flex items-center justify-between
-           px-4"
-          >
-            <button onClick={handlePrev} className="carousel-button text-white">
-              <FaChevronLeft className="bg-gray-300 rounded-full" />
+          <div className="absolute inset-0 flex items-center justify-between px-4">
+            <button onClick={handlePrev} className="carousel-button">
+              <FaChevronLeft size={24} className="bg-[#FACC15] text-black p-2 rounded-full" />
             </button>
-            <button onClick={handleNext} className="carousel-button text-white">
-              <FaChevronRight className="bg-gray-300 rounded-full" />
+            <button onClick={handleNext} className="carousel-button">
+              <FaChevronRight size={24} className="bg-[#FACC15] text-black p-2 rounded-full" />
             </button>
           </div>
         )}
       </div>
-      <div className="mt-[1rem]">
-        <h2>{product.title}</h2>
-        <p>${product.price}</p>
+      <div className="mt-4 text-[#4A4A4A]">
+        <h2 className="font-bold">{product.title}</h2>
+        <p className="text-[#D97706] font-semibold">${product.price}</p>
       </div>
     </div>
   );
@@ -536,7 +531,7 @@ export const data = [
       red: Image3,
       white: Image4,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 445,
     company: "Nike",
     country: "Japan",
@@ -549,7 +544,7 @@ export const data = [
       red: Image8,
       white: Image9,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 340,
     company: "Nike",
     country: "USA",
@@ -563,7 +558,7 @@ export const data = [
       white: Image13,
       golden: Image14,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 225,
     company: "Nike",
     country: "China",
@@ -577,7 +572,7 @@ export const data = [
       white: Image18,
       golden: Image19,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 622,
     company: "Nike",
     country: "Japan",
@@ -590,7 +585,7 @@ export const data = [
       red: Image22,
       golden: Image23,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 126,
     company: "Nike",
     country: "China",
@@ -602,7 +597,7 @@ export const data = [
       brown: Image25,
       golden: Image26,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 722,
     company: "Nike",
     country: "USA",
@@ -614,7 +609,7 @@ export const data = [
       white: Image28,
       golden: Image29,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 532,
     company: "Nike",
     country: "Japan",
@@ -628,7 +623,7 @@ export const data = [
       white: Image33,
       golden: Image34,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 521,
     company: "Nike",
     country: "Japan",
@@ -639,7 +634,7 @@ export const data = [
       black: Image35,
       brown: Image36,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 752,
     company: "Nike",
     country: "India",
@@ -651,7 +646,7 @@ export const data = [
       red: Image38,
       white: Image39,
     },
-    title: "Some Random Shoe",
+    title: "Some Random Watch",
     price: 241,
     company: "Nike",
     country: "Japan",
