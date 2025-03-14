@@ -97,7 +97,7 @@ along with the instructions on how to update that specific part.
 ## ⚡Step 5️⃣: Use Redux State and Actions in React Components
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/5a444966-08ee-4c5d-8be4-4177ac415309" width="900px" height="815px" />
+   <img src="https://github.com/user-attachments/assets/5a444966-08ee-4c5d-8be4-4177ac415309" width="750px" height="679px" />
 </p>
 
 </br>
