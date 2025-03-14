@@ -41,16 +41,3 @@ toolset for efficient `Redux` development
 - `𝐑𝖾ᑯυ𝗑 𝐓ⱺⱺᥣ𝗄𝗂𝗍` : Makes the `Redux` Easy To Work With
 
 </h3>
-
-
-What Is Store?
-
-
-A store is a central place where the state of
-our application is stored & it can be created
-using the configureStore function and it holds
-the entire state tree of our application.
-
-Step 1: Create Store
-
-Step 2: Provide the Redux Store to React
