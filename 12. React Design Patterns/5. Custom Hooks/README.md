@@ -274,7 +274,7 @@ export default useDebounce;
 
 ```
 
-</br>
+</br> 
 
 ```JSX
 //============ 🗂️hoots/⚛️usePrevious.ts ==============
